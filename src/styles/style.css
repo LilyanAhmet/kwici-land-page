@@ -1,0 +1,134 @@
+@import "./variables.css";
+
+.Rectangle {
+  width: 180px;
+  height: 35px;
+  object-fit: contain;
+  border-radius: 36.5px;
+  background-color: var(--main-theme-color--);
+}
+.Rectangle-2 {
+    width: 69.2px;
+    height: 4px;
+    background-color:var(--main-theme-color--);
+  }
+.main-button {
+  background-color: var(--main-theme-color--);
+  padding: 5px 25px;
+  color: #fff;
+  border-radius: 5px;
+  max-width: 140px;
+  box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.35);
+}
+.title{
+    display: flex;
+}
+.title img{
+    height: 50px;
+}
+.title h2{
+    color: var(--secondary-them-color--);
+    font-weight: 900;
+    padding-left: 20px;
+    font-size: 50px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    margin-top: -10px;
+
+}
+/* style bootstrap overlaping*/
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--secondary-them-color--);
+  font-weight: 600;
+  padding-right: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--main-theme-color--);
+  font-weight: 600;
+}
+
+/*promo section*/
+.promo {
+  background-image: url("../images/promobg.svg");
+  background-repeat: no-repeat;
+  background-position: initial;
+  padding: 20px 40px;
+  position: relative;
+  background-size: 100%;
+}
+.promo h1 {
+  font-size: 45px;
+  font-weight: 800;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.promo .button {
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+.promo p {
+  padding-top: 10px;
+  color: white;
+  font-size: 14px;
+  line-height: 2;
+}
+.promo .apps {
+    padding-top: 7%;
+    width: 40%;
+    padding-bottom: 60px;
+}
+.promo .apps img{
+    max-width: 110px;
+}
+
+/*features*/
+.features{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.features .box{
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+    background-color: #ffffff;
+}
+.features .box .feature{
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.features .box .feature img{
+    height: 100px;
+}
+.features .box .feature h5{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.features .box .feature p{
+    padding-top: 30px;
+    font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #868788;
+}
+@media screen and (min-width: 1400px) {
+    .promo h1 {
+        font-size: 50px;
+      }
+  }
+  

@@ -221,6 +221,77 @@
   padding-top: 50px;
 }
 
+.product {
+  padding-top: 60px;
+  margin-bottom: 260px;
+  position: relative;
+}
+.bg {
+  position: absolute;
+  right: 0;
+  top: 150px;
+  width: 70%;
+  border-radius: 10px;
+  height: 100%;
+  background-color: #f4f4f4;
+}
+.product .nav-tabs img {
+  width: 50px;
+  margin-right: 15px;
+}
+.product .nav-tabs a {
+  color: var(--main-theme-color--);
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  margin:3px;
+}
+.product .nav-tabs a {
+  color: var(--main-theme-color--);
+  font-weight: 600;
+  
+}
+.product .nav-tabs {
+    border-bottom: none
+}
+.product .nav-tabs a.active {
+    color: var(--main-theme-color--);
+    
+  }
+.product .tab-content .nav-tabs {
+    margin-top: 30px;
+}
+.product .tab-content .nav-tabs a{
+    background-color: #fff;
+    margin:5px;
+    border-radius: 3px;
+    padding: 4px;
+    color:#bbbbbb
+}
+.product .tab-content .nav-tabs a.active{
+    background-color:  var(--secondary-them-color--) !important;
+    color:#fff
+}
+.product .details {
+    padding-top: 40px;
+}
+.product .details .element{
+    display: flex;
+    margin-bottom: 20px;
+}
+.product .details .element img{
+    width: 30px;
+    margin-top: -20px;
+}
+.product .details .element .text{
+   padding-left: 20px;
+}
+.product .details .element .text p{
+    font-size: 14px;
+    letter-spacing: 0.57px;
+    color: #646464;
+    font-weight: 500;
+ }
 .newsletter {
   padding-bottom: 100px;
 }
@@ -290,49 +361,48 @@
   font-size: 16px;
   color: var(--secondary-them-color--);
 }
-.contact form input{
-      background-color:#f6f6f6;
-      font-size: 14px;
-      border: none;
-      height: 40px;
+.contact form input {
+  background-color: #f6f6f6;
+  font-size: 14px;
+  border: none;
+  height: 40px;
 }
-.contact form select{
-    background-color:#f6f6f6;
-    font-size: 14px;
-    border: none;
-    height: 40px;
+.contact form select {
+  background-color: #f6f6f6;
+  font-size: 14px;
+  border: none;
+  height: 40px;
 }
-.contact form textarea{
-    background-color:#f6f6f6;
-    font-size: 14px;
-    border: none;
+.contact form textarea {
+  background-color: #f6f6f6;
+  font-size: 14px;
+  border: none;
 }
-.contact form input:focus , .contact form textarea:focus , .contact form select:focus{
-    border: 1px solid var(--main-theme-color--); 
-    box-shadow: none;
-    background-color:#fff;
-  }
+.contact form input:focus,
+.contact form textarea:focus,
+.contact form select:focus {
+  border: 1px solid var(--main-theme-color--);
+  box-shadow: none;
+  background-color: #fff;
+}
 
-  .contact form input:focus + label{
-    color: var(--main-theme-color--); 
-   
-  }
-  .contact button{
-    object-fit: contain;
-    border-radius: 5px;
-    color: #fff;
-    box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.3);
-    background-color: var(--main-theme-color--); 
-    float: right;
-    font-weight: 600;
-    margin-top: 10px;
-  }
-  .contact button img{
-   width: 15px;
-   margin-left: 10px;
-  }
-
-
+.contact form input:focus + label {
+  color: var(--main-theme-color--);
+}
+.contact button {
+  object-fit: contain;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.3);
+  background-color: var(--main-theme-color--);
+  float: right;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.contact button img {
+  width: 15px;
+  margin-left: 10px;
+}
 
 .footer .left {
   padding-top: 20px;

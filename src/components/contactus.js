@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Row, Col, Form } from "react-bootstrap"
 import SectionTitle from "./section-title"
-import Button from './Button'
+
 /* resources */
 import MapIcon from "../images/map.svg"
 import Message from "../images/message.svg"

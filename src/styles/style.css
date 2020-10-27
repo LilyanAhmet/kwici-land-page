@@ -1,13 +1,14 @@
 @import "./variables.css";
 
 .mycustom {
- 
   position: relative;
 }
 .mycustom input[type="text"] {
   border: none;
   width: 100%;
   padding-right: 123px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .mycustom .input-group-prepend {
   position: absolute;
@@ -36,6 +37,13 @@
   max-width: 140px;
   box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.35);
 }
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: var(--secondary-them-color--);
+}
+
 .title {
   display: flex;
 }
@@ -179,6 +187,7 @@
   background-image: url("../images/howitwork.svg");
   background-repeat: no-repeat;
   background-position: initial;
+  background-attachment: fixed;
   background-size: cover;
   padding-bottom: 150px;
 }
@@ -234,51 +243,133 @@
   color: #ffffff;
 }
 .newsletter .box form {
+  margin: 30px 30px;
+  margin-left: 30px;
+}
+.newsletter .box form .newletter-btn {
+  background-color: var(--secondary-them-color--);
+  border-radius: 5px !important;
+}
 
-    margin: 30px 30px;
-    margin-left: 30px;
-}
-.newsletter .box form .newletter-btn{
-    background-color: var(--secondary-them-color--);
-    border-radius: 5px !important;
+.contact p {
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  padding-bottom: 30px;
 
+  color: #a6a6a6;
 }
-.footer .left{
-padding-top: 20px;
+.contact ul {
+  list-style: none;
 }
-.footer .left p{
-    text-align: center;
-    color: var(--secondary-them-color--);
+.contact ul li {
+  display: flex;
+}
+.contact ul li p {
+  padding-left: 20px;
+  padding-top: 30px;
+  color: var(--secondary-them-color--);
+  font-weight: 600;
+  font-size: 16px;
+}
+.contact form {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+.contact form label {
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 16px;
+  color: var(--secondary-them-color--);
+}
+.contact form input{
+      background-color:#f6f6f6;
+      font-size: 14px;
+      border: none;
+      height: 40px;
+}
+.contact form select{
+    background-color:#f6f6f6;
+    font-size: 14px;
+    border: none;
+    height: 40px;
+}
+.contact form textarea{
+    background-color:#f6f6f6;
+    font-size: 14px;
+    border: none;
+}
+.contact form input:focus , .contact form textarea:focus , .contact form select:focus{
+    border: 1px solid var(--main-theme-color--); 
+    box-shadow: none;
+    background-color:#fff;
+  }
+
+  .contact form input:focus + label{
+    color: var(--main-theme-color--); 
+   
+  }
+  .contact button{
+    object-fit: contain;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.3);
+    background-color: var(--main-theme-color--); 
+    float: right;
     font-weight: 600;
+    margin-top: 10px;
+  }
+  .contact button img{
+   width: 15px;
+   margin-left: 10px;
+  }
+
+
+
+.footer .left {
+  padding-top: 20px;
 }
-.footer .left p a{
-    font-weight: 900;
-    color: var(--secondary-them-color--);
+.footer .left p {
+  text-align: center;
+  color: var(--secondary-them-color--);
+  font-weight: 600;
 }
-.footer .middle img{
-    display: block;
-    margin: auto;
+.footer .left p a {
+  font-weight: 900;
+  color: var(--secondary-them-color--);
 }
-.footer .middle .bottom{
-    margin-top: 20px;
-    
-    text-align: center;
+.footer .middle img {
+  display: block;
+  margin: auto;
 }
-.footer .middle .bottom a{
-    color: var(--secondary-them-color--);
-    text-align: center;
-    font-size: 12px;
-    padding: 20px;
+.footer .middle .bottom {
+  margin-top: 20px;
+
+  text-align: center;
+}
+.footer .middle .bottom a {
+  color: var(--secondary-them-color--);
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
 }
 .footer .social {
-    display: flex;
-    padding-top: 20px;
+  display: flex;
+  padding-top: 20px;
 }
-.footer .social a{
-    margin: auto;
+.footer .social a {
+  margin: auto;
 }
-.footer .social a img{
-    width: 70%;
+.footer .social a img {
+  width: 70%;
 }
 
 @media screen and (min-width: 1400px) {

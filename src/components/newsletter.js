@@ -18,7 +18,7 @@ const Newsletter = () => {
                 <div class="input-group mycustom">
                   <input
                     type="text"
-                    class="form-control rounded-0"
+                    class="form-control rounded-2"
                     id="validationDefaultUsername"
                     placeholder="Enter your email"
                     aria-describedby="inputGroupPrepend2"

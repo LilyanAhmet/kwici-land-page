@@ -213,7 +213,7 @@
 }
 
 .newsletter {
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 .newsletter .box {
   background-color: var(--main-theme-color--);
@@ -243,6 +243,44 @@
     border-radius: 5px !important;
 
 }
+.footer .left{
+padding-top: 20px;
+}
+.footer .left p{
+    text-align: center;
+    color: var(--secondary-them-color--);
+    font-weight: 600;
+}
+.footer .left p a{
+    font-weight: 900;
+    color: var(--secondary-them-color--);
+}
+.footer .middle img{
+    display: block;
+    margin: auto;
+}
+.footer .middle .bottom{
+    margin-top: 20px;
+    
+    text-align: center;
+}
+.footer .middle .bottom a{
+    color: var(--secondary-them-color--);
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+}
+.footer .social {
+    display: flex;
+    padding-top: 20px;
+}
+.footer .social a{
+    margin: auto;
+}
+.footer .social a img{
+    width: 70%;
+}
+
 @media screen and (min-width: 1400px) {
   .promo h1 {
     font-size: 50px;

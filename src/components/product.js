@@ -56,7 +56,7 @@ const Product = () => {
                       </Nav>
                       <Tab.Content>
                         <Tab.Pane eventKey="couriers">
-                          <div className="details">
+                        <div className="details">
                             <div className="element">
                               <img src={Fast} />
                               <div className="text">
@@ -73,9 +73,7 @@ const Product = () => {
                               <div className="text">
                                 <h6>Fast Integration</h6>
                                 <p>
-                                  {" "}
-                                  Fast and easy integration to your e-commerce
-                                  system.
+                                We are here to help! Kwicki team is ready to support you on 7/24 for your orders and questions.
                                 </p>
                               </div>
                             </div>
@@ -84,9 +82,7 @@ const Product = () => {
                               <div className="text">
                                 <h6>Fast Integration</h6>
                                 <p>
-                                  {" "}
-                                  Fast and easy integration to your e-commerce
-                                  system.
+                                Get your statistics reports about your sales with one click from the Kwicki dashboard
                                 </p>
                               </div>
                             </div>
@@ -96,8 +92,7 @@ const Product = () => {
                                 <h6>Fast Integration</h6>
                                 <p>
                                   {" "}
-                                  Fast and easy integration to your e-commerce
-                                  system.
+                                  A wide delivery network system match customers with a convenient courier on Kwicki system. Kwicki system includes courier on foot, with a bike, motorbike, or car. 
                                 </p>
                               </div>
                             </div>
@@ -121,9 +116,7 @@ const Product = () => {
                               <div className="text">
                                 <h6>Fast Integration</h6>
                                 <p>
-                                  {" "}
-                                  Fast and easy integration to your e-commerce
-                                  system.
+                                We are here to help! Kwicki team is ready to support you on 7/24 for your orders and questions.
                                 </p>
                               </div>
                             </div>
@@ -132,9 +125,7 @@ const Product = () => {
                               <div className="text">
                                 <h6>Fast Integration</h6>
                                 <p>
-                                  {" "}
-                                  Fast and easy integration to your e-commerce
-                                  system.
+                                Get your statistics reports about your sales with one click from the Kwicki dashboard
                                 </p>
                               </div>
                             </div>
@@ -144,8 +135,7 @@ const Product = () => {
                                 <h6>Fast Integration</h6>
                                 <p>
                                   {" "}
-                                  Fast and easy integration to your e-commerce
-                                  system.
+                                  A wide delivery network system match customers with a convenient courier on Kwicki system. Kwicki system includes courier on foot, with a bike, motorbike, or car. 
                                 </p>
                               </div>
                             </div>

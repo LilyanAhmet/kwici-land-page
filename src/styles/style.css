@@ -35,6 +35,7 @@
   color: #fff;
   border-radius: 5px;
   max-width: 140px;
+  text-align: center;
   box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.35);
 }
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -244,54 +245,81 @@
   font-weight: 600;
   border: none;
   border-radius: 10px;
-  margin:3px;
+  margin: 3px;
 }
 .product .nav-tabs a {
   color: var(--main-theme-color--);
   font-weight: 600;
-  
 }
 .product .nav-tabs {
-    border-bottom: none
+  border-bottom: none;
 }
 .product .nav-tabs a.active {
-    color: var(--main-theme-color--);
-    
-  }
+  color: var(--main-theme-color--);
+}
 .product .tab-content .nav-tabs {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-.product .tab-content .nav-tabs a{
-    background-color: #fff;
-    margin:5px;
-    border-radius: 3px;
-    padding: 4px;
-    color:#bbbbbb
+.product .tab-content .nav-tabs a {
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 3px;
+  padding: 4px;
+  color: #bbbbbb;
 }
-.product .tab-content .nav-tabs a.active{
-    background-color:  var(--secondary-them-color--) !important;
-    color:#fff
+.product .tab-content .nav-tabs a.active {
+  background-color: var(--secondary-them-color--) !important;
+  color: #fff;
 }
 .product .details {
-    padding-top: 40px;
+  padding-top: 40px;
 }
-.product .details .element{
-    display: flex;
-    margin-bottom: 20px;
+.product .details .element {
+  display: flex;
+  margin-bottom: 20px;
 }
-.product .details .element img{
-    width: 30px;
-    margin-top: -20px;
+.product .details .element img {
+  width: 30px;
+  margin-top: -20px;
 }
-.product .details .element .text{
-   padding-left: 20px;
+.product .details .element .text {
+  padding-left: 20px;
 }
-.product .details .element .text p{
-    font-size: 14px;
-    letter-spacing: 0.57px;
-    color: #646464;
-    font-weight: 500;
- }
+.product .details .element .text p {
+  font-size: 14px;
+  letter-spacing: 0.57px;
+  color: #646464;
+  font-weight: 500;
+}
+
+.business {
+  background-image: url("../images/business.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 150px;
+  padding: 140px 40px 250px 40px;
+}
+.business h1{
+color:#fff;
+}
+.business span{
+    color:var(--main-theme-color--);
+}
+.business p{
+    font-size: 22px;
+    width: 80%;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+}
+.business .main-button{
+    margin-top: 80px;
+}
 .newsletter {
   padding-bottom: 100px;
 }
@@ -330,12 +358,14 @@
   font-style: normal;
   line-height: 1.17;
   letter-spacing: normal;
+
   padding-bottom: 30px;
 
   color: #a6a6a6;
 }
 .contact ul {
   list-style: none;
+  padding-left: 0;
 }
 .contact ul li {
   display: flex;
@@ -348,8 +378,7 @@
   font-size: 16px;
 }
 .contact form {
-  display: block;
-  margin: auto;
+  float: right;
   width: 80%;
 }
 .contact form label {

@@ -7,6 +7,7 @@ import Promo from '../components/promo'
 import Features from '../components/features'
 import Workflow from '../components/workflow'
 import How from '../components/how-it-works'
+import Newsletter from '../components/newsletter'
 export default function Home() {
   return(
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
       <Features/>
       <Workflow/>
       <How/>
+      <Newsletter/>
     </div>
   )
 

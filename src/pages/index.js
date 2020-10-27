@@ -5,12 +5,16 @@ import '../styles/style.css'
 import Header from '../components/hoc/header'
 import Promo from '../components/promo'
 import Features from '../components/features'
+import Workflow from '../components/workflow'
+import How from '../components/how-it-works'
 export default function Home() {
   return(
     <div>
       <Header/>
       <Promo/>
       <Features/>
+      <Workflow/>
+      <How/>
     </div>
   )
 

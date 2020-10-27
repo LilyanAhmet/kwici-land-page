@@ -8,10 +8,10 @@
   background-color: var(--main-theme-color--);
 }
 .Rectangle-2 {
-    width: 69.2px;
-    height: 4px;
-    background-color:var(--main-theme-color--);
-  }
+  width: 69.2px;
+  height: 4px;
+  background-color: var(--main-theme-color--);
+}
 .main-button {
   background-color: var(--main-theme-color--);
   padding: 5px 25px;
@@ -20,22 +20,21 @@
   max-width: 140px;
   box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.35);
 }
-.title{
-    display: flex;
+.title {
+  display: flex;
 }
-.title img{
-    height: 50px;
+.title img {
+  height: 50px;
 }
-.title h2{
-    color: var(--secondary-them-color--);
-    font-weight: 900;
-    padding-left: 20px;
-    font-size: 50px;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: 0.8px;
-    margin-top: -10px;
-
+.title h2 {
+  color: var(--secondary-them-color--);
+  font-weight: 900;
+  padding-left: 20px;
+  font-size: 50px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.8px;
+  margin-top: -10px;
 }
 /* style bootstrap overlaping*/
 .navbar-dark .navbar-nav .nav-link {
@@ -82,42 +81,47 @@
   line-height: 2;
 }
 .promo .apps {
-    padding-top: 7%;
-    width: 40%;
-    padding-bottom: 60px;
+  padding-top: 7%;
+  width: 40%;
+  padding-bottom: 60px;
 }
-.promo .apps img{
-    max-width: 110px;
+.promo .apps img {
+  max-width: 110px;
 }
 
 /*features*/
-.features{
-    margin-top: 60px;
-    margin-bottom: 60px;
+.features {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
 }
-.features .box{
-    margin-top: 30px;
-    border-radius: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
-    background-color: #ffffff;
+.features .box {
+  margin-top: 30px;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+  background-color: #ffffff;
+  position: absolute;
+  top: 100%;
+  left: 8%;
+  right: 8%;
 }
-.features .box .feature{
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+.features .box .feature {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.features .box .feature img{
-    height: 100px;
+.features .box .feature img {
+  height: 100px;
 }
-.features .box .feature h5{
-    padding-top: 20px;
-    padding-bottom: 10px;
+.features .box .feature h5 {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
-.features .box .feature p{
-    padding-top: 30px;
-    font-size: 16px;
+.features .box .feature p {
+  padding-top: 30px;
+  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -126,9 +130,80 @@
   text-align: justify;
   color: #868788;
 }
+
+/*workflow*/
+.workflow {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding-top: 300px;
+  padding-bottom: 60px;
+  margin: 170px 40px 50px;
+}
+.workflow .img {
+  display: block;
+  width: 100%;
+  padding: 80px;
+}
+
+.workflow .box {
+  border-left: 5px solid var(--main-theme-color--);
+  padding-left: 20px;
+}
+.workflow .box p {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #617283;
+}
+.how {
+  background-image: url("../images/howitwork.svg");
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover;
+  padding-bottom: 150px;
+}
+.how h1 {
+  padding-top: 50px;
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 9.6px;
+  color: var(--main-theme-color--);
+}
+.how p {
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--secondary-them-color--);
+  text-align: right;
+  margin-right: 17%;
+
+}
+.how .video {
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+}
 @media screen and (min-width: 1400px) {
-    .promo h1 {
-        font-size: 50px;
-      }
+  .promo h1 {
+    font-size: 50px;
   }
-  
+  .features .box {
+    position: absolute;
+    top: 100%;
+    left: 16%;
+    right: 16%;
+  }
+}

@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="27" height="75" viewBox="0 0 27 75">
     <g fill="none" fill-rule="evenodd">
-        <g fill="#FB3640">
-            <g transform="translate(-239 -1166) translate(239 1137)">
-                <rect width="27" height="75" y="29" rx="4"/>
-            </g>
+        <g fill="#FB3640" transform="translate(-239 -1962)">
+            <rect width="27" height="75" x="239" y="1962" rx="4"/>
         </g>
     </g>
 </svg>

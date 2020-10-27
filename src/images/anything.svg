@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1214" height="194" viewBox="0 0 1214 194">
+    <g fill="none" fill-rule="evenodd" font-family="Futura-Bold, Futura" font-weight="bold">
+        <g fill-rule="nonzero">
+            <g>
+                <text fill="#FB3640" font-size="100" letter-spacing="9.6" transform="translate(-352 -3972) translate(352 3972)">
+                    <tspan x="0" y="104">Anything you want </tspan>
+                </text>
+                <text fill="#2C3641" font-size="50" transform="translate(-352 -3972) translate(352 3972)">
+                    <tspan x="638" y="173">Delivered in minutes</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -55,6 +55,7 @@ const Contact = () => {
                     name="name"
                     id="formGroupExampleInput"
                     placeholder="Enter your full name"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -65,6 +66,7 @@ const Contact = () => {
                     class="form-control"
                     id="formGroupExampleInput"
                     placeholder="Enter your email address"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -75,6 +77,7 @@ const Contact = () => {
                     class="form-control"
                     id="formGroupExampleInput"
                     placeholder="Enter your phone number"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -85,6 +88,7 @@ const Contact = () => {
                     name="topic"
                     class="custom-select my-1 mr-sm-2"
                     id="inlineFormCustomSelectPref"
+                    required
                   >
                     <option selected>Choose...</option>
                     <option value="1">One</option>
@@ -99,6 +103,7 @@ const Contact = () => {
                     class="form-control"
                     id="exampleFormControlTextarea1"
                     rows="3"
+                    required
                   ></textarea>
                 </div>
                 <button type="submit" class="btn  mb-2">

@@ -6,7 +6,7 @@ import SectionTitle from "./section-title"
 import MapIcon from "../images/map.svg"
 import Message from "../images/message.svg"
 import Phone from "../images/phone.svg"
-import Arrow from '../images/sendarrow.png'
+import Arrow from "../images/sendarrow.png"
 const Contact = () => {
   return (
     <div className="contact">
@@ -37,13 +37,22 @@ const Contact = () => {
           </Col>
           <Col md={6} sm={12}>
             <div>
-              <form>
+              <form
+                noValidate
+                autoComplete="off"
+                name="Contact"
+                method="post"
+                action="/"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
                 <input type="hidden" name="form-contact" value="Contact" />
                 <div class="form-group">
                   <label for="formGroupExampleInput">Full Name* </label>
                   <input
                     type="text"
                     class="form-control"
+                    name="name"
                     id="formGroupExampleInput"
                     placeholder="Enter your full name"
                   />
@@ -51,7 +60,8 @@ const Contact = () => {
                 <div class="form-group">
                   <label for="formGroupExampleInput">Email Address*</label>
                   <input
-                    type="text"
+                    type="email"
+                    name="email"
                     class="form-control"
                     id="formGroupExampleInput"
                     placeholder="Enter your email address"
@@ -61,6 +71,7 @@ const Contact = () => {
                   <label for="formGroupExampleInput">Phone Number*</label>
                   <input
                     type="text"
+                    name="phone"
                     class="form-control"
                     id="formGroupExampleInput"
                     placeholder="Enter your phone number"
@@ -71,6 +82,7 @@ const Contact = () => {
                     Topic*
                   </label>
                   <select
+                    name="topic"
                     class="custom-select my-1 mr-sm-2"
                     id="inlineFormCustomSelectPref"
                   >
@@ -83,12 +95,15 @@ const Contact = () => {
                 <div class="form-group">
                   <label for="exampleFormControlTextarea1">Your Message*</label>
                   <textarea
+                    name="message"
                     class="form-control"
                     id="exampleFormControlTextarea1"
                     rows="3"
                   ></textarea>
                 </div>
-                <button type="submit" class="btn  mb-2">Contact us <img src={Arrow}/></button>
+                <button type="submit" class="btn  mb-2">
+                  Contact us <img src={Arrow} />
+                </button>
               </form>
             </div>
           </Col>

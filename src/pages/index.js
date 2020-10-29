@@ -11,6 +11,7 @@ import Product from '../components/product'
 import Business from '../components/business'
 import Building from '../components/buildingkwicki'
 import Partners from '../components/storepartners'
+import Track from '../components/track'
 import Newsletter from '../components/newsletter'
 import Contact from '../components/contactus'
 import Footer from '../components/hoc/footer'
@@ -26,6 +27,7 @@ export default function Home() {
       <Business/>
       <Building/>
       <Partners/>
+      <Track/>
       <Newsletter/>
       <Contact />
       <Footer/>

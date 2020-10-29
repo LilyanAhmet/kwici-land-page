@@ -300,15 +300,15 @@
   margin-bottom: 50px;
   padding: 140px 40px 250px 40px;
 }
-.business h1{
-color:#fff;
+.business h1 {
+  color: #fff;
 }
-.business span{
-    color:var(--main-theme-color--);
+.business span {
+  color: var(--main-theme-color--);
 }
-.business p{
-    font-size: 22px;
-    width: 80%;
+.business p {
+  font-size: 22px;
+  width: 80%;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -317,14 +317,14 @@ color:#fff;
   text-align: justify;
   color: #ffffff;
 }
-.business .main-button{
-    margin-top: 80px;
+.business .main-button {
+  margin-top: 80px;
 }
 
-.building{
-margin-bottom: 50px;
+.building {
+  margin-bottom: 50px;
 }
-.building h1{
+.building h1 {
   font-size: 60px;
   margin: auto;
   text-align: center;
@@ -335,70 +335,100 @@ margin-bottom: 50px;
   font-style: normal;
   line-height: normal;
 
- color: var(--secondary-them-color--);
+  color: var(--secondary-them-color--);
 }
-.building h1 span{
-
-  color: var(--main-theme-color--)
+.building h1 span {
+  color: var(--main-theme-color--);
 }
-.building .box{
-  margin:50px 20px ;
+.building .box {
+  margin: 50px 20px;
   border-radius: 10px;
   box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
   background-color: #ffffff;
   padding-bottom: 30px;
 }
-.building .box img{
- width: 100%;
- height: 247px;
+.building .box img {
+  width: 100%;
+  height: 247px;
 }
-.building .box h3{
-  padding:10px 30px;
-}
-.building .box h6{
+.building .box h3 {
   padding: 10px 30px;
 }
-.building .box p{
-  padding:10px 30px;
+.building .box h6 {
+  padding: 10px 30px;
 }
-.building .box .main-button{
+.building .box p {
+  padding: 10px 30px;
+}
+.building .box .main-button {
   max-width: 100%;
   margin: auto 30px;
 
   margin-bottom: 10px;
- }
- .partners{
-   margin-bottom: 60px;
- }
- .partners h2{
-   text-align: center;
-   margin-bottom: 50px;
-   color: var(--secondary-them-color--);
+}
+.partners {
+  margin-bottom: 60px;
+}
+.partners h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--secondary-them-color--);
 
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 0.87;
- }
-.partners .kaufhof{
+}
+.partners .kaufhof {
   padding-top: 20px;
   width: 200px;
   margin: auto;
   display: block;
 }
-.partners .ca5{
+.partners .ca5 {
   width: 150px;
   margin: auto;
   display: block;
 }
 
-.partners .woolworths{
+.partners .woolworths {
   padding-top: 20px;
   width: 280px;
   margin: auto;
   display: block;
 }
 
+.track {
+  background-image: url("../images/track.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 150px;
+  padding: 140px 40px 100px 40px;
+}
+.track h1 {
+  color: #fff;
+}
+.track span {
+  color: var(--main-theme-color--);
+}
+.track p{
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  text-align: justify;
+  padding-top: 30px;
+  color: #fff;
+}
+.track .apps {
+  padding-top: 7%;
+  width: 70%;
+}
+.track .apps img {
+  max-width: 150px;
+}
 .newsletter {
   padding-bottom: 100px;
 }

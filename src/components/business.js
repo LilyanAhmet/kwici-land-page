@@ -7,7 +7,10 @@ const Business = () => {
       <div className="business">
         <Row>
           <Col md={6} sm="12">
-             <div className="Rectangle" style={{backgroundColor:"#fff",marginBottom:"30px"}}></div>
+            <div
+              className="Rectangle"
+              style={{ backgroundColor: "#fff", marginBottom: "30px" }}
+            ></div>
             <h1>
               <span>KWICKI</span> Business
             </h1>

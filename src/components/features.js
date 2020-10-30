@@ -18,7 +18,7 @@ const Features = () => {
         </Row>
         <div className="box">
           <Row>
-            <Col>
+            <Col sm={12} md={4}>
               <div className="feature">
                 <img src={FoodDilvery} />
                 <h5>Get Same-Day Delivery</h5>
@@ -29,7 +29,7 @@ const Features = () => {
                 </p>
               </div>
             </Col>
-            <Col>
+            <Col sm={12} md={4}>
               <div className="feature">
                 <img src={PaymentMethod} />
                 <h5>Save Time & Money</h5>
@@ -40,7 +40,7 @@ const Features = () => {
                 </p>
               </div>
             </Col>
-            <Col>
+            <Col sm={12} md={4}>
               <div className="feature">
                 <img src={Close} />
                 <h5>Secure Mobile Payment</h5>

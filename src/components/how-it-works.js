@@ -6,7 +6,7 @@ import Video from "./video"
 import Anything from '../images/rsz_anything.png'
 const HowItWorks = () => {
   return (
-    <div className="how">
+    <div className="how" id="how">
       <Container>
         <Row>
           <Col>
@@ -15,7 +15,7 @@ const HowItWorks = () => {
         </Row>
         <Row>
           <Col>
-            <img src={Anything} style={{margin:"auto",display:"block",paddingTop:"50px"}}/>
+            <img src={Anything} style={{margin:"auto",display:"block",paddingTop:"50px"}} className="img-text"/>
           </Col>
         </Row>
         <Row>

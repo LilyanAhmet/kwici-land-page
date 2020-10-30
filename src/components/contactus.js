@@ -9,7 +9,7 @@ import Phone from "../images/phone.svg"
 import Arrow from "../images/sendarrow.png"
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <Container>
         <Row>
           <Col md={6} sm={12}>

@@ -8,14 +8,14 @@ import Huwaui from "../images/huawi.svg"
 const Promo = () => {
   return (
     <Container>
-      <div className="promo">
+      <div className="promo" id="promo">
         <Row>
           <Col xs={10}>
             <h1>Everybody can be a Courier for Anything</h1>
           </Col>
         </Row>
         <Row>
-          <Col xs={5}>
+          <Col xs={9} md={5}>
             <p>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -25,7 +25,7 @@ const Promo = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs={3}>
+          <Col xs={12}  md={3}>
             <div className="button">
               <a href="#">
                 <Button text="Get Started" />

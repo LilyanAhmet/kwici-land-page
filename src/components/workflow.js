@@ -6,7 +6,7 @@ import SectionTitle from "./section-title"
 import Image from "../images/rectangle.png"
 const Workflow = () => {
   return (
-    <div className="workflow">
+    <div className="workflow" id='process'>
       <Container>
         <Row>
           <Col>

@@ -1,25 +1,24 @@
 import React from "react"
 import { Container, Navbar, NavDropdown, Nav } from "react-bootstrap"
-
+import AnchorLink from "react-anchor-link-smooth-scroll"
 import Button from '../Button'
 const Header = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="white" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="white" variant="dark" fixed="top">
         <Container>
-          <Navbar.Brand href="#home"><div className="Rectangle"></div></Navbar.Brand>
+          <AnchorLink href="#promo"><div className="Rectangle"></div></AnchorLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Process</Nav.Link>
-              <Nav.Link href="#pricing">How it Works?</Nav.Link>
-              <Nav.Link href="#pricing">Product</Nav.Link>
-              <Nav.Link href="#pricing">Testimonials</Nav.Link>
-              <Nav.Link href="#pricing">Contact</Nav.Link>
+          <Navbar.Collapse id="responsive-navbar-nav" >
+            <Nav className="mr-auto" style={{marginLeft:"30px"}}>
+              <AnchorLink className="nav-link " href="#features">Features</AnchorLink>
+              <AnchorLink className="nav-link " href="#process">Process</AnchorLink>
+              <AnchorLink className="nav-link " href="#how">How it Works?</AnchorLink>
+              <AnchorLink className="nav-link " href="#product">Product</AnchorLink>
+              <AnchorLink className="nav-link " href="#contact">Contact</AnchorLink>
             </Nav>
             <Nav>
-              <Nav.Link href="#deets"><Button text="Login"/></Nav.Link>
+              <AnchorLink href="#deets"><Button text="Login"/></AnchorLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

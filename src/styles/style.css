@@ -44,7 +44,9 @@
 .navbar-dark .navbar-nav .show > .nav-link {
   color: var(--secondary-them-color--);
 }
-
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--secondary-them-color--);
+}
 .title {
   display: flex;
 }
@@ -73,7 +75,10 @@
   color: var(--main-theme-color--);
   font-weight: 600;
 }
-
+.navbar-dark .navbar-toggler-icon {
+  background-color: var(--main-theme-color--);
+  border-radius: 5px;
+}
 /*promo section*/
 .promo {
   background-image: url("../images/promobg.svg");
@@ -81,6 +86,7 @@
   background-position: initial;
   padding: 20px 40px;
   position: relative;
+  margin-top: 100px;
   background-size: 100%;
 }
 .promo h1 {
@@ -221,7 +227,8 @@
   margin: auto;
   padding-top: 50px;
 }
-
+.how .img-text {
+}
 .product {
   padding-top: 60px;
   margin-bottom: 150px;
@@ -353,6 +360,7 @@
 }
 .building .box h3 {
   padding: 10px 30px;
+  color:var(--main-theme-color--)
 }
 .building .box h6 {
   padding: 10px 30px;
@@ -412,7 +420,7 @@
 .track span {
   color: var(--main-theme-color--);
 }
-.track p{
+.track p {
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -590,4 +598,220 @@
     left: 16%;
     right: 16%;
   }
+}
+@media screen and (max-width: 799px) {
+  .features .box {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+    background-color: #ffffff;
+    position: relative;
+    top: unset;
+    left: unset;
+    right: unset;
+  }
+
+  .title h2 {
+    font-size: 25px;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+  .how .img-text {
+    width: 100%;
+  }
+  .newsletter .box {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    display: block;
+    border-radius: 10px;
+  }
+  .bg {
+    display: none;
+  }
+  .how {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .how .video {
+    width: 100%;
+  }
+  .title img {
+    height: 30px;
+  }
+  .workflow {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin: 70px 10px 50px;
+  }
+  .workflow .img {
+    padding: 20px;
+  }
+  .product {
+    padding-top: 60px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .business {
+    margin-bottom: 50px;
+    padding: 50px 40px 50px 20px;
+    background-size: cover;
+  }
+  .business h1 {
+    color: #fff;
+    font-size: 14px;
+  }
+  .business p {
+    font-size: 10px;
+  }
+  .business .main-button {
+    margin-top: 0;
+    max-width: 50px;
+    font-size: 8px;
+    padding: 1px;
+  }
+  .Rectangle {
+    width: 50px;
+    height: 10px;
+    margin-bottom: 10px !important;
+  }
+  .building h1 {
+    font-size: 22px;
+    letter-spacing: 0px;
+  }
+  .building .box {
+    margin: 10px 20px;
+  }
+  .promo {
+    margin-top: 65px;
+    padding: 20px 20px;
+    background-size: cover;
+  }
+  .promo h1 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .promo p {
+    padding-top: 0px;
+    color: white;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+  .promo .button {
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+  }
+  .promo .main-button {
+    background-color: var(--main-theme-color--);
+    padding: 1px;
+    color: #fff;
+    border-radius: 5px;
+    max-width: 100px;
+    font-size: 8px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.35);
+  }
+  .features .box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .features .box .feature h5 {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 18px;
+  }
+  .features .box .feature p {
+    font-size: 14px;
+  }
+  .contact form {
+    float: none;
+    width: 100%;
+  }
+  .promo .apps {
+    padding-top: 7%;
+    width: 100%;
+    padding-bottom: 1px;
+  }
+  .promo .apps img {
+    max-width: 70px;
+    margin-bottom: 15px;
+  }
+  .workflow .box {
+    margin-bottom: 30px;
+  }
+  .product .nav-tabs img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  .track {
+    background-size: cover;
+    margin-bottom: 0;
+    padding: 140px 40px 100px 40px;
+  }
+  .track h1 {
+    color: #fff;
+    font-size: 22px;
+  }
+  .track p {
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    padding-top: 30px;
+    color: #fff;
+  }
+  .track .apps img {
+    max-width: 80px;
+    margin-bottom: 10px;
+  }
+  .partners img {
+    margin-bottom: 20px !important;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .navbar-dark .navbar-nav .main-button {
+    background-color: var(--main-theme-color--);
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    max-width: 120px;
+
+}
+  .newsletter .box p {
+    font-size: 16px;
+  }
+  .newsletter .box form {
+    margin: 10px 10px;
+  }
+  .product .nav-tabs a {
+    text-align: center;
+}
+.product .tab-content .nav-tabs {
+  margin-top: 10px;
+}
+.building .box h3 {
+  padding: 0 30px;
+ font-size: 22px;
+}
+.building .box h6 {
+  padding: 0 30px;
+}
+.building .box p {
+ font-size: 14px;
+}
+.contact p {
+
+  font-size: 14px;
+
+}
 }

@@ -11,7 +11,7 @@ import Statistics from "../images/chart.svg"
 import Delivery from "../images/pen.svg"
 const Product = () => {
   return (
-    <div className="product">
+    <div className="product" id="product">
       <div className="bg"></div>
       <Container>
         <Row>
@@ -19,20 +19,20 @@ const Product = () => {
             <SectionTitle title="Product" />
           </Col>
         </Row>
-        <Row style={{ marginTop: "100px" }}>
+        <Row style={{ marginTop: "50px" }}>
           <Col md={5} sm={12}>
             <img src={ProductImg} style={{ width: "100%" }} />
           </Col>
           <Col md={7} sm={12}>
             <Tab.Container id="left-tabs-example" defaultActiveKey="mobile">
-              <Nav justify variant="tabs">
-                <Nav.Item>
+              <Nav  variant="tabs"  className="row">
+                <Nav.Item className="col-md-6 col-xs-12">
                   <Nav.Link eventKey="mobile">
                     <img src={Mobile} />
                     Mobile Application
                   </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="col-md-6 col-xs-12">
                   <Nav.Link eventKey="desktop">
                     <img src={Desktop} />
                     Desktop Application

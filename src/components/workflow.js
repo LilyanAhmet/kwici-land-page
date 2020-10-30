@@ -14,7 +14,10 @@ const Workflow = () => {
           </Col>
         </Row>
         <Row>
-          <img className="img" src={Image} />
+          <Col>
+            {" "}
+            <img className="img" src={Image} />{" "}
+          </Col>
         </Row>
         <Row>
           <Col sm={4}>

@@ -6,7 +6,7 @@ import SectionTitle from "./section-title"
 import Image from "../images/rectangle.png"
 const Workflow = () => {
   return (
-    <div className="workflow" id='process'>
+    <div className="workflow" id="process">
       <Container>
         <Row>
           <Col>
@@ -21,29 +21,28 @@ const Workflow = () => {
             <div className="box">
               <h5>Registered Couriers</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit.
+                You can be a courier on Kwicki easily. Couriers can register to
+                Kwicki to start carrying deliveries as registered courier.
               </p>
             </div>
           </Col>
           <Col sm={4}>
             <div className="box">
-              <h5>Registered Couriers</h5>
+              <h5>Registered Companies and Persons</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit.
+                As a company, offer your customers Kwicki courier option to
+                provide them the best delivery system. As a customer, select
+                Kiwicki carrier option while shopping from registered companies
+                and e-commerce websites to receive the ultimate service.
               </p>
             </div>
           </Col>
           <Col sm={4}>
             <div className="box">
-              <h5>Registered Couriers</h5>
+              <h5>Choose Delivery Time</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit.
+                As a customer. you can choose the delivery timing from the
+                dashboard up to 30 minutes precision.
               </p>
             </div>
           </Col>

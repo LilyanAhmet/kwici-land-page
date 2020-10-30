@@ -1,5 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 import Button from "../components/Button"
 const Business = () => {
   return (
@@ -18,7 +19,7 @@ const Business = () => {
               The best way to setup and organize your e-commerce business
               deliveries
             </p>
-            <Button text="Contact us" />
+           <AnchorLink href="#contact"><Button text="Contact us" /></AnchorLink> 
           </Col>
         </Row>
       </div>

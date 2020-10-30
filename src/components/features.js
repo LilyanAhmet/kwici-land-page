@@ -35,8 +35,7 @@ const Features = () => {
                 <h5>Save Time & Money</h5>
                 <div className="Rectangle-2"></div>
                 <p>
-                  Order for delivery or pickup from local stores in cities like
-                  Cologne, Hannover, San Diego, San Francisco and many more.
+                Find exclusive deals on popular products and get the items you love delivered or ready for pickup in as little as 2 hours.
                 </p>
               </div>
             </Col>
@@ -46,8 +45,7 @@ const Features = () => {
                 <h5>Secure Mobile Payment</h5>
                 <div className="Rectangle-2"></div>
                 <p>
-                  Order for delivery or pickup from local stores in cities like
-                  Cologne, Hannover, San Diego, San Francisco and many more.
+                A secure mobile payment system offers a safe way to pay.  
                 </p>
               </div>
             </Col>

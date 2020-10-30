@@ -38,7 +38,6 @@ const Contact = () => {
           <Col md={6} sm={12}>
             <div>
               <form
-                noValidate
                 autoComplete="off"
                 name="Contact"
                 method="post"

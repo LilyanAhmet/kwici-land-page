@@ -14,10 +14,18 @@ const Newsletter = () => {
               </p>
             </Col>
             <Col>
-              <form>
+              <form
+                autoComplete="off"
+                name="Newsletter"
+                method="post"
+                action="/"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
                 <div class="input-group mycustom">
+                  <input type="hidden" name="form-contact" value="Newsletter" />
                   <input
-                    type="text"
+                    type="email"
                     class="form-control rounded-2"
                     id="validationDefaultUsername"
                     placeholder="Enter your email"

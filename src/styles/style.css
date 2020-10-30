@@ -171,14 +171,15 @@
   margin: 170px 40px 50px;
 }
 .workflow .img {
-  display: block;
   width: 100%;
+  height: auto;
   padding: 80px;
 }
 
 .workflow .box {
   border-left: 5px solid var(--main-theme-color--);
   padding-left: 20px;
+  min-height: 150px;
 }
 .workflow .box p {
   font-size: 14px;
@@ -197,6 +198,7 @@
   background-attachment: fixed;
   background-size: cover;
   padding-bottom: 150px;
+  padding-top: 20px;
 }
 .how h1 {
   padding-top: 50px;
@@ -356,11 +358,10 @@
 }
 .building .box img {
   width: 100%;
-  height: 247px;
 }
 .building .box h3 {
   padding: 10px 30px;
-  color:var(--main-theme-color--)
+  color: var(--main-theme-color--);
 }
 .building .box h6 {
   padding: 10px 30px;
@@ -785,8 +786,7 @@
     color: #fff;
     border-radius: 5px;
     max-width: 120px;
-
-}
+  }
   .newsletter .box p {
     font-size: 16px;
   }
@@ -795,23 +795,24 @@
   }
   .product .nav-tabs a {
     text-align: center;
-}
-.product .tab-content .nav-tabs {
-  margin-top: 10px;
-}
-.building .box h3 {
-  padding: 0 30px;
- font-size: 22px;
-}
-.building .box h6 {
-  padding: 0 30px;
-}
-.building .box p {
- font-size: 14px;
-}
-.contact p {
-
-  font-size: 14px;
-
-}
+  }
+  .product .tab-content .nav-tabs {
+    margin-top: 10px;
+  }
+  .building .box h3 {
+    padding: 0 30px;
+    font-size: 22px;
+  }
+  .building .box h6 {
+    padding: 0 30px;
+  }
+  .building .box p {
+    font-size: 14px;
+  }
+  .contact p {
+    font-size: 14px;
+  }
+  .workflow .box {
+    min-height: auto;
+  }
 }

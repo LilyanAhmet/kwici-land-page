@@ -21,7 +21,8 @@ const Product = () => {
         </Row>
         <Row style={{ marginTop: "50px" }}>
           <Col md={5} sm={12}>
-            <img src={ProductImg} style={{ width: "100%" }} />
+            <img src={ProductImg} style={{ margin: "auto",
+    display: "block"}} />
           </Col>
           <Col md={7} sm={12}>
             <Tab.Container id="left-tabs-example" defaultActiveKey="mobile">

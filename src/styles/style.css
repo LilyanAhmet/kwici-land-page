@@ -36,7 +36,7 @@
   border-radius: 5px;
   max-width: 140px;
   text-align: center;
-  box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.35);
+  box-shadow: 0 10px 20px 0 rgba(66, 100, 255, 0.35);
 }
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
@@ -65,7 +65,7 @@
 }
 /* style bootstrap overlaping*/
 .navbar-dark .navbar-nav .nav-link {
-  color: var(--secondary-them-color--);
+  color: #000;
   font-weight: 600;
   padding-right: 25px;
   padding-top: 30px;
@@ -107,7 +107,8 @@
 }
 .promo p {
   padding-top: 10px;
-  color: white;
+  color: black;
+  font-weight: 500;
   font-size: 14px;
   line-height: 2;
 }
@@ -177,7 +178,7 @@
 }
 
 .workflow .box {
-  border-left: 5px solid var(--main-theme-color--);
+  border-left: 5px solid  #8cc27b;
   padding-left: 20px;
   min-height: 150px;
 }
@@ -187,6 +188,7 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.4;
+  margin-top: 20px;
   letter-spacing: normal;
   text-align: justify;
   color: #617283;

@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import SectionTitle from "./section-title"
 
 /* resources */
-import Image from "../images/rectangle.png"
+import Image from "../images/promobg.png"
 const Workflow = () => {
   return (
     <div className="workflow" id="process">

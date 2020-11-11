@@ -322,11 +322,12 @@
   width: 80%;
   font-weight: 500;
   font-stretch: normal;
+  margin-top: 20px;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: justify;
-  color: #ffffff;
+  color: #000;
 }
 .business .main-button {
   margin-top: 80px;
@@ -346,7 +347,7 @@
   font-style: normal;
   line-height: normal;
 
-  color: var(--secondary-them-color--);
+  color: #8cc27b
 }
 .building h1 span {
   color: var(--main-theme-color--);

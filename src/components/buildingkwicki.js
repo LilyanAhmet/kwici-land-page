@@ -13,7 +13,7 @@ const Buildingkwicki = () => {
         <Row>
           <Col>
             <h1>
-              <span>We’re building Kwicki </span> together!
+              <span>We’re building Quicki </span> together!
             </h1>
           </Col>
         </Row>

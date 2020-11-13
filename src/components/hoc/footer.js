@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 
 /* reources*/
-import Icon from "../../../static/favicon.ico"
+import Icon from "../../images/quicki.png"
 import Facebook from "../../images/001-facebook.svg"
 import Instagram from "../../images/002-instagram.svg"
 import Twitter from "../../images/003-twitter.svg"

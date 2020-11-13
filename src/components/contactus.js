@@ -3,7 +3,7 @@ import { Container, Row, Col, Form } from "react-bootstrap"
 import SectionTitle from "./section-title"
 
 /* resources */
-import MapIcon from "../images/map.svg"
+import MapIcon from "../images/map-placeholder.svg"
 import Message from "../images/message.svg"
 import Phone from "../images/phone.svg"
 import Arrow from "../images/sendarrow.png"

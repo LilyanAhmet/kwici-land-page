@@ -411,7 +411,7 @@
 }
 
 .track {
-  background-image: url("../images/track.png");
+  background-image: url("../images/track.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -432,7 +432,7 @@
   letter-spacing: normal;
   text-align: justify;
   padding-top: 30px;
-  color: #fff;
+  color: #000;
 }
 .track .apps {
   padding-top: 7%;
@@ -482,7 +482,7 @@
 
   padding-bottom: 30px;
 
-  color: #a6a6a6;
+  color: #000;
 }
 .contact ul {
   list-style: none;
@@ -494,7 +494,7 @@
 .contact ul li p {
   padding-left: 20px;
   padding-top: 30px;
-  color: var(--secondary-them-color--);
+  color: #000;
   font-weight: 600;
   font-size: 16px;
 }
@@ -509,7 +509,7 @@
   line-height: normal;
   letter-spacing: normal;
   font-size: 16px;
-  color: var(--secondary-them-color--);
+  color: #000;
 }
 .contact form input {
   background-color: #f6f6f6;

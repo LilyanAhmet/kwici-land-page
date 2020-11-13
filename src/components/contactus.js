@@ -25,11 +25,11 @@ const Contact = () => {
                   <p>Brüsseler Str. 89-93, 50672 Cologne/Germany</p>
                 </li>
                 <li>
-                  <img src={Message} style={{ width: "40px" }} />
+                  <img src={Phone} style={{ width: "40px" }} />
                   <p>+49 2 21 5796 7940</p>
                 </li>
                 <li>
-                  <img src={Phone} style={{ width: "38px" }} />
+                  <img src={Message} style={{ width: "38px" }} />
                   <p>contact@kwicki.de</p>
                 </li>
               </ul>

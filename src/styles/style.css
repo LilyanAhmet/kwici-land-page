@@ -543,7 +543,7 @@
   object-fit: contain;
   border-radius: 5px;
   color: #fff;
-  box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.3);
+  box-shadow: 0 10px 20px 0 rgba(33, 73, 254, 0.35);
   background-color: var(--main-theme-color--);
   float: right;
   font-weight: 600;

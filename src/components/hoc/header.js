@@ -2,19 +2,19 @@ import React from "react"
 import { Container, Navbar, NavDropdown, Nav } from "react-bootstrap"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import Button from '../Button'
+import Logo from '../../images/quicki-logo.svg'
 const Header = () => {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="white" variant="dark" fixed="top">
         <Container>
-          <AnchorLink href="#promo"><div className="Rectangle"></div></AnchorLink>
+          <AnchorLink href="#promo" ><img className="logo" src={Logo}/></AnchorLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" >
             <Nav className="mr-auto" style={{marginLeft:"30px"}}>
-              <AnchorLink className="nav-link " href="#features">Features</AnchorLink>
-              <AnchorLink className="nav-link " href="#process">Process</AnchorLink>
-              <AnchorLink className="nav-link " href="#how">How it Works?</AnchorLink>
-              <AnchorLink className="nav-link " href="#product">Product</AnchorLink>
+              <AnchorLink className="nav-link " href="#features">Features & Benefits</AnchorLink>
+              <AnchorLink className="nav-link " href="#process">Workflow</AnchorLink>
+              <AnchorLink className="nav-link " href="#product">Application</AnchorLink>
               <AnchorLink className="nav-link " href="#contact">Contact</AnchorLink>
             </Nav>
             <Nav>

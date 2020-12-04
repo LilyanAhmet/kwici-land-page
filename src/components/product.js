@@ -4,11 +4,8 @@ import SectionTitle from "./section-title"
 /* resources*/
 import Mobile from "../images/mobile.svg"
 import Desktop from "../images/desktop.svg"
-import ProductImg from "../images/rsz_product.png"
-import Fast from "../images/time.svg"
-import Support from "../images/communication.svg"
-import Statistics from "../images/chart.svg"
-import Delivery from "../images/pen.svg"
+import DesktopMockup from "../images/Desktop_Mockup.svg"
+import MobileMockup from "../images/Mobile_Mockup.svg"
 const Product = () => {
   return (
     <div className="product" id="product">
@@ -16,17 +13,31 @@ const Product = () => {
       <Container>
         <Row>
           <Col>
-            <SectionTitle title="Product" />
+            <SectionTitle title="Application" />
           </Col>
         </Row>
+
         <Row style={{ marginTop: "50px" }}>
-          <Col md={5} sm={12}>
-            <img src={ProductImg} style={{ margin: "auto",
-    display: "block"}} />
-          </Col>
-          <Col md={7} sm={12}>
-            <Tab.Container id="left-tabs-example" defaultActiveKey="mobile">
-              <Nav  variant="tabs"  className="row">
+          <Tab.Container id="left-tabs-example" defaultActiveKey="mobile">
+            <Col md={5} sm={12}>
+              <Tab.Content>
+                <Tab.Pane eventKey="mobile">
+                  <img
+                    src={MobileMockup}
+                    style={{ margin: "auto", display: "block", width: "100%" }}
+                  />
+                </Tab.Pane>
+                <Tab.Pane eventKey="desktop">
+                  <img
+                    src={DesktopMockup}
+                    style={{ margin: "auto", display: "block", width: "100%" }}
+                  />
+                </Tab.Pane>
+              </Tab.Content>
+            </Col>
+
+            <Col md={7} sm={12}>
+              <Nav variant="tabs" className="row">
                 <Nav.Item className="col-md-6 col-xs-12">
                   <Nav.Link eventKey="mobile">
                     <img src={Mobile} />
@@ -43,113 +54,125 @@ const Product = () => {
               <Tab.Content>
                 <Tab.Pane eventKey="mobile">
                   <div>
-                    <Tab.Container
-                      id="left-tabs-example"
-                      defaultActiveKey="couriers"
-                    >
-                      <Nav justify variant="tabs">
-                        <Nav.Item>
-                          <Nav.Link eventKey="couriers">Couriers</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="customer">Customer</Nav.Link>
-                        </Nav.Item>
-                      </Nav>
-                      <Tab.Content>
-                        <Tab.Pane eventKey="couriers">
-                        <div className="details">
-                            <div className="element">
-                              <img src={Fast} />
-                              <div className="text">
-                                <h6>Fast Integration</h6>
-                                <p>
-                                  {" "}
-                                  Fast and easy integration to your e-commerce
-                                  system.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="element">
-                              <img src={Support} />
-                              <div className="text">
-                                <h6>Fast Integration</h6>
-                                <p>
-                                We are here to help! Kwicki team is ready to support you on 7/24 for your orders and questions.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="element">
-                              <img src={Statistics} />
-                              <div className="text">
-                                <h6>Fast Integration</h6>
-                                <p>
-                                Get your statistics reports about your sales with one click from the Kwicki dashboard
-                                </p>
-                              </div>
-                            </div>
-                            <div className="element">
-                              <img src={Delivery} />
-                              <div className="text">
-                                <h6>Fast Integration</h6>
-                                <p>
-                                  {" "}
-                                  A wide delivery network system match customers with a convenient courier on Kwicki system. Kwicki system includes courier on foot, with a bike, motorbike, or car. 
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="customer">
-                        <div className="details">
-                            <div className="element">
-                              <img src={Fast} />
-                              <div className="text">
-                                <h6>Fast Integration</h6>
-                                <p>
-                                  {" "}
-                                  Fast and easy integration to your e-commerce
-                                  system.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="element">
-                              <img src={Support} />
-                              <div className="text">
-                                <h6>Fast Integration</h6>
-                                <p>
-                                We are here to help! Kwicki team is ready to support you on 7/24 for your orders and questions.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="element">
-                              <img src={Statistics} />
-                              <div className="text">
-                                <h6>Fast Integration</h6>
-                                <p>
-                                Get your statistics reports about your sales with one click from the Kwicki dashboard
-                                </p>
-                              </div>
-                            </div>
-                            <div className="element">
-                              <img src={Delivery} />
-                              <div className="text">
-                                <h6>Fast Integration</h6>
-                                <p>
-                                  {" "}
-                                  A wide delivery network system match customers with a convenient courier on Kwicki system. Kwicki system includes courier on foot, with a bike, motorbike, or car. 
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </Tab.Pane>
-                      </Tab.Content>
-                    </Tab.Container>
+                    <h5>Customers</h5>
+                    <div className="details">
+                      <div className="element">
+                        <div className="text">
+                          <h6>Order Status Tracking for Customers </h6>
+                          <p>
+                            Get the items you love delivered or ready for pickup
+                            in as little as 2 hours. Track your order status
+                            instantly.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="element">
+                        <div className="text">
+                          <h6>Choosing Delivery Date and Time</h6>
+                          <p>
+                            Receive your order on the day and time range you
+                            want.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="element">
+                        <div className="text">
+                          <h6>Easy to Repeat Order</h6>
+                          <p>
+                            View all your orders in detail and quickly repeat
+                            your order from the last orders area in your
+                            profile.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <h5 style={{ paddingTop: "10px" }}>Volunteer</h5>
+                    <div className="details">
+                      <div className="element">
+                        <div className="text">
+                          <h6>Easy Registration for Volunteers</h6>
+                          <p>
+                            You can be a volunteer on Quicki easily. Volunteers
+                            can register to Quicki to start carrying deliveries
+                            as registered volunteer.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="element">
+                        <div className="text">
+                          <h6>Management Panel for Volunteers</h6>
+                          <p>
+                            Usability management panel for volunteers. Every
+                            volunteer can easily manage the status of all their
+                            orders.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </Tab.Pane>
-                <Tab.Pane eventKey="desktop">ssssssssssssssssssssss</Tab.Pane>
+                <Tab.Pane eventKey="desktop">
+                  <div>
+                    <h5>Customers</h5>
+                    <div className="details">
+                      <div className="element">
+                        <div className="text">
+                          <h6>Order Status Tracking for Customers </h6>
+                          <p>
+                            Get the items you love delivered or ready for pickup
+                            in as little as 2 hours. Track your order status
+                            instantly.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="element">
+                        <div className="text">
+                          <h6>Choosing Delivery Date and Time</h6>
+                          <p>
+                            Receive your order on the day and time range you
+                            want.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="element">
+                        <div className="text">
+                          <h6>Easy to Repeat Order</h6>
+                          <p>
+                            View all your orders in detail and quickly repeat
+                            your order from the last orders area in your
+                            profile.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <h5 style={{ paddingTop: "10px" }}>Volunteer</h5>
+                    <div className="details">
+                      <div className="element">
+                        <div className="text">
+                          <h6>Easy Registration for Volunteers</h6>
+                          <p>
+                            You can be a volunteer on Quicki easily. Volunteers
+                            can register to Quicki to start carrying deliveries
+                            as registered volunteer.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="element">
+                        <div className="text">
+                          <h6>Management Panel for Volunteers</h6>
+                          <p>
+                            Usability management panel for volunteers. Every
+                            volunteer can easily manage the status of all their
+                            orders.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Tab.Pane>
               </Tab.Content>
-            </Tab.Container>
-          </Col>
+            </Col>
+          </Tab.Container>
         </Row>
       </Container>
     </div>

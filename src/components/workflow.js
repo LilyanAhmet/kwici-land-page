@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import SectionTitle from "./section-title"
 
 /* resources */
-import Image from "../images/map.svg";
+import Image from "../images/map.svg"
 const Workflow = () => {
   return (
     <div className="workflow" id="process">
@@ -22,30 +22,28 @@ const Workflow = () => {
         <Row>
           <Col sm={4}>
             <div className="box">
-              <h5>Registered Couriers</h5>
+              <h5>Registered Volunteers</h5>
               <p>
-                You can be a courier on Kwicki easily. Couriers can register to
-                Kwicki to start carrying deliveries as registered courier.
+                You can be a volunteer on Quicki easily. Volunteers can register
+                to Quicki to start carrying deliveries as registered volunteer.
               </p>
             </div>
           </Col>
           <Col sm={4}>
             <div className="box">
-              <h5>Registered Companies and Persons</h5>
+              <h5>Easy to Repeat Order</h5>
               <p>
-                As a company, offer your customers Kwicki courier option to
-                provide them the best delivery system. As a customer, select
-                Kiwicki carrier option while shopping from registered companies
-                and e-commerce websites to receive the ultimate service.
+                View all your orders in detail and quickly repeat your order
+                from the last orders area in your profile.
               </p>
             </div>
           </Col>
           <Col sm={4}>
             <div className="box">
-              <h5>Choose Delivery Time</h5>
+              <h5>Choose Delivery Date and Time</h5>
               <p>
-                As a customer. you can choose the delivery timing from the
-                dashboard up to 30 minutes precision.
+                As a customer. you can choose the delivery date and time from
+                the order up to 2 hours precision.
               </p>
             </div>
           </Col>

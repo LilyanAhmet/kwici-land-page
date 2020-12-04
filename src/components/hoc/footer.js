@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 
 /* reources*/
-import Icon from "../../images/quicki.png"
+import Icon from "../../images/quicki.svg"
 import Facebook from "../../images/001-facebook.svg"
 import Instagram from "../../images/002-instagram.svg"
 import Twitter from "../../images/003-twitter.svg"
@@ -20,7 +20,7 @@ const Footer = () => {
               <p>
                 © {new Date().getFullYear()} Copyright
                 {` `}
-                <a href="https://www.qimia.io">KWICKI</a>
+                <a href="https://www.qimia.io">QUICKI</a>
               </p>
             </div>
           </Col>

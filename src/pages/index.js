@@ -22,12 +22,9 @@ export default function Home() {
       <Promo/>
       <Features/>
       <Workflow/>
-      <How/>
       <Product/>
       <Business/>
       <Building/>
-      <Partners/>
-      <Track/>
       <Newsletter/>
       <Contact />
       <Footer/>

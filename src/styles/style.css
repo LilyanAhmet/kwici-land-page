@@ -86,7 +86,7 @@
   background-position: initial;
   padding: 20px 40px;
   position: relative;
-  margin-top: 100px;
+  margin-top: 120px;
   background-size: 100%;
 }
 .promo h1 {
@@ -108,9 +108,9 @@
 .promo p {
   padding-top: 10px;
   color: black;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.5;
 }
 .promo .apps {
   padding-top: 7%;
@@ -150,6 +150,7 @@
 .features .box .feature h5 {
   padding-top: 20px;
   padding-bottom: 10px;
+  font-weight: 800;
 }
 .features .box .feature p {
   padding-top: 30px;
@@ -163,11 +164,14 @@
   color: #868788;
 }
 
+.features .box-bottom{
+  margin-top: 420px !important;
+}
 /*workflow*/
 .workflow {
   background-color: #f4f4f4;
   border-radius: 10px;
-  padding-top: 300px;
+  padding-top: 670px;
   padding-bottom: 60px;
   margin: 170px 40px 50px;
 }
@@ -180,7 +184,7 @@
 .workflow .box {
   border-left: 5px solid  #8cc27b;
   padding-left: 20px;
-  min-height: 150px;
+  min-height: 130px;
 }
 .workflow .box p {
   font-size: 14px;
@@ -282,8 +286,17 @@
   background-color: var(--secondary-them-color--) !important;
   color: #fff;
 }
-.product .details {
+.product h5{
   padding-top: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d95214;
+}
+.product .details {
+  padding-top: 10px;
 }
 .product .details .element {
   display: flex;
@@ -295,6 +308,10 @@
 }
 .product .details .element .text {
   padding-left: 20px;
+  border-left: 5px solid #2149fe;
+}
+.product .details .element .text h6{
+  font-weight: 900;
 }
 .product .details .element .text p {
   font-size: 14px;
@@ -302,14 +319,13 @@
   color: #646464;
   font-weight: 500;
 }
-
 .business {
   background-image: url("../images/business.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  margin-bottom: 50px;
-  padding: 140px 40px 250px 40px;
+
+  padding: 140px 40px 200px 40px;
 }
 .business h1 {
   color: #fff;
@@ -332,7 +348,6 @@
 .business .main-button {
   margin-top: 80px;
 }
-
 .building {
   margin-bottom: 50px;
 }
@@ -342,11 +357,9 @@
   text-align: center;
   font-weight: bold;
   font-stretch: normal;
-
   letter-spacing: -3px;
   font-style: normal;
   line-height: normal;
-
   color: #8cc27b
 }
 .building h1 span {
@@ -364,19 +377,23 @@
 }
 .building .box h3 {
   padding: 10px 30px;
-  color: var(--main-theme-color--);
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 .building .box h6 {
-  padding: 10px 30px;
+  padding: 0px 30px;
+  color: var(--main-theme-color--);
 }
 .building .box p {
   padding: 10px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .building .box .main-button {
-  max-width: 100%;
+  float: right;
   margin: auto 30px;
-
-  margin-bottom: 10px;
+  font-size: 12px;
 }
 .partners {
   margin-bottom: 60px;
@@ -605,6 +622,9 @@
   }
 }
 @media screen and (max-width: 799px) {
+  .features .box-bottom{
+    margin-top: 30px !important;
+  }
   .features .box {
     margin-top: 30px;
     border-radius: 10px;
@@ -692,7 +712,7 @@
     margin: 10px 20px;
   }
   .promo {
-    margin-top: 65px;
+    margin-top: 85px;
     padding: 20px 20px;
     background-size: cover;
   }
@@ -818,5 +838,8 @@
   }
   .workflow .box {
     min-height: auto;
+  }
+  .logo{
+    max-width: 150px;
   }
 }

@@ -255,9 +255,12 @@
   margin-right: 15px;
 }
 .product .nav-tabs a {
-  color: var(--main-theme-color--);
-  font-weight: 600;
+  color: #000 !important;
+  font-weight: 900 !important;
   border: none;
+  font-size: large;
+  margin: auto;
+  text-align: center;
   border-radius: 10px;
   margin: 3px;
 }

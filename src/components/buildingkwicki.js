@@ -5,7 +5,6 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 /* resources */
 import Courier from "../images/becourier.svg"
 
-
 const Buildingkwicki = () => {
   return (
     <div className="building">
@@ -26,12 +25,12 @@ const Buildingkwicki = () => {
                 </Col>
                 <Col md={6} sm={12}>
                   <h3>Be Our Volunteer</h3>
-                  <h6>Only the hours you want</h6>
+                  <h6>Arrange your working hours as you wish</h6>
                   <p>
-                    Be your own boss. Flexible hours, competitive incomes and
-                    the opportunity to get to know your city delivering
-                    outdoors. Contact us and collaborate with us in less than
-                    24h.
+                    Be your own boss. Flexible working hours, a helping hand for
+                    people who need you and the opportunity to get to know your
+                    city even better. Contact us and work with us in less than
+                    24 hours.
                   </p>
                   <AnchorLink href="#contact">
                     <Button text="Register Now" />

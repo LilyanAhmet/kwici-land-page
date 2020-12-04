@@ -11,17 +11,17 @@ const Promo = () => {
       <div className="promo" id="promo">
         <Row>
           <Col xs={10}>
-            <p style={{marginBottom:"0px"}}>Express Courier Delivery</p>
-            <h1>Everybody can be a Courier for Anything</h1>
+            <p style={{ marginBottom: "0px" }}>Get Same-Day Delivery</p>
+            <h1>Everybody can be a Volunteer Hero</h1>
           </Col>
         </Row>
         <Row>
           <Col xs={9} md={5}>
             <p>
-              The same day on-demand delivery service when you need it. Select
-              Quicki delivery option from the registered companies and get your
-              packages fast and easily. Everybody can be a courier for anything
-              with a quick registration on Quicki.
+              Receive your delivery the same day, whenever you need it. Put
+              together your shopping cart and receive your packages quickly and
+              easily. With a quick registration on Quicki anyone can be a
+              volunteer hero.
             </p>
           </Col>
         </Row>

@@ -41,13 +41,13 @@ const Product = () => {
                 <Nav.Item className="col-md-6 col-xs-12">
                   <Nav.Link eventKey="mobile">
                     <img src={Mobile} />
-                    Mobile Application
+                    Mobile
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="col-md-6 col-xs-12">
                   <Nav.Link eventKey="desktop">
                     <img src={Desktop} />
-                    Desktop Application
+                    Desktop
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
@@ -60,9 +60,9 @@ const Product = () => {
                         <div className="text">
                           <h6>Order Status Tracking for Customers </h6>
                           <p>
-                            Get the items you love delivered or ready for pickup
-                            in as little as 2 hours. Track your order status
-                            instantly.
+                            Get the items you love delivered in as little as 2
+                            hours. Get a confirmation as soon as a volunteer has
+                            accepted your order.
                           </p>
                         </div>
                       </div>
@@ -70,8 +70,8 @@ const Product = () => {
                         <div className="text">
                           <h6>Choosing Delivery Date and Time</h6>
                           <p>
-                            Receive your order on the day and time range you
-                            want.
+                            Receive your order on the day and within the time
+                            range of your choice.
                           </p>
                         </div>
                       </div>
@@ -80,8 +80,8 @@ const Product = () => {
                           <h6>Easy to Repeat Order</h6>
                           <p>
                             View all your orders in detail and quickly repeat
-                            your order from the last orders area in your
-                            profile.
+                            your order from the last order using the order area
+                            in your profile.
                           </p>
                         </div>
                       </div>
@@ -92,9 +92,9 @@ const Product = () => {
                         <div className="text">
                           <h6>Easy Registration for Volunteers</h6>
                           <p>
-                            You can be a volunteer on Quicki easily. Volunteers
-                            can register to Quicki to start carrying deliveries
-                            as registered volunteer.
+                            You can easily become a volunteer on Quicki.
+                            Volunteers can register on Quicki to carry
+                            deliveries as a registered volunteer.
                           </p>
                         </div>
                       </div>
@@ -119,9 +119,9 @@ const Product = () => {
                         <div className="text">
                           <h6>Order Status Tracking for Customers </h6>
                           <p>
-                            Get the items you love delivered or ready for pickup
-                            in as little as 2 hours. Track your order status
-                            instantly.
+                            Get the items you love delivered in as little as 2
+                            hours. Get a confirmation as soon as a volunteer has
+                            accepted your order.
                           </p>
                         </div>
                       </div>
@@ -129,8 +129,8 @@ const Product = () => {
                         <div className="text">
                           <h6>Choosing Delivery Date and Time</h6>
                           <p>
-                            Receive your order on the day and time range you
-                            want.
+                            Receive your order on the day and within the time
+                            range of your choice.
                           </p>
                         </div>
                       </div>
@@ -139,8 +139,8 @@ const Product = () => {
                           <h6>Easy to Repeat Order</h6>
                           <p>
                             View all your orders in detail and quickly repeat
-                            your order from the last orders area in your
-                            profile.
+                            your order from the last order using the order area
+                            in your profile.
                           </p>
                         </div>
                       </div>
@@ -151,9 +151,9 @@ const Product = () => {
                         <div className="text">
                           <h6>Easy Registration for Volunteers</h6>
                           <p>
-                            You can be a volunteer on Quicki easily. Volunteers
-                            can register to Quicki to start carrying deliveries
-                            as registered volunteer.
+                            You can easily become a volunteer on Quicki.
+                            Volunteers can register on Quicki to carry
+                            deliveries as a registered volunteer.
                           </p>
                         </div>
                       </div>

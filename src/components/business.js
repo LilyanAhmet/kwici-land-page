@@ -13,7 +13,7 @@ const Business = () => {
               <img className="logo" src={Logo} />
             </div>
 
-            <p>Let all your orders come to your door without leaving home.</p>
+            <p>Have all your orders delivered directly to your front door with just one click.</p>
             <AnchorLink href="#contact">
               <Button text="Contact us" />
             </AnchorLink>

@@ -31,7 +31,7 @@ const Features = () => {
             <Col sm={12} md={4}>
               <div className="feature">
                 <img src={PaymentMethod} />
-                <h5>Save Time</h5>
+                <h5>Save Time & Effort</h5>
                 <div className="Rectangle-2"></div>
                 <p>
                   Make your purchase from the comfort of your own home and
@@ -84,8 +84,8 @@ const Features = () => {
                 <h5>Everybody Can Become a Volunteer</h5>
                 <div className="Rectangle-2"></div>
                 <p>
-                  Everyone can volunteer in their spare time to help the
-                  community.
+                  Everybody can volunteer in their spare time to help the
+                  community by supporting others with their purchases.
                 </p>
               </div>
             </Col>

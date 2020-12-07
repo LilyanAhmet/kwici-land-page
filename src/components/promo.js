@@ -20,8 +20,8 @@ const Promo = () => {
             <p>
               Get your delivery the same day, whenever you need it. Put your
               purchase together and receive your goods quickly and easily. And
-              with a quick registration on Quicki, anyone can be a volunteer
-              hero.
+              if you don't need a purchase, but you want to help, you can also
+              be a volunteer hero with a quick registration at Quicki.
             </p>
           </Col>
         </Row>

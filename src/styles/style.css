@@ -164,7 +164,7 @@
   color: #868788;
 }
 
-.features .box-bottom{
+.features .box-bottom {
   margin-top: 420px !important;
 }
 /*workflow*/
@@ -182,7 +182,7 @@
 }
 
 .workflow .box {
-  border-left: 5px solid  #8cc27b;
+  border-left: 5px solid #8cc27b;
   padding-left: 20px;
   min-height: 130px;
 }
@@ -288,7 +288,7 @@
   background-color: var(--secondary-them-color--) !important;
   color: #fff;
 }
-.product h5{
+.product h5 {
   padding-top: 40px;
   font-weight: bold;
   font-stretch: normal;
@@ -312,7 +312,7 @@
   padding-left: 20px;
   border-left: 5px solid #2149fe;
 }
-.product .details .element .text h6{
+.product .details .element .text h6 {
   font-weight: 900;
 }
 .product .details .element .text p {
@@ -362,7 +362,7 @@
   letter-spacing: -3px;
   font-style: normal;
   line-height: normal;
-  color: #8cc27b
+  color: #8cc27b;
 }
 .building h1 span {
   color: var(--main-theme-color--);
@@ -624,7 +624,16 @@
   }
 }
 @media screen and (max-width: 799px) {
-  .features .box-bottom{
+  .promo {
+    background-image: url("../images/promobg-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: initial;
+    padding: 20px 40px;
+    position: relative;
+    margin-top: 120px;
+    background-size: 100%;
+  }
+  .features .box-bottom {
     margin-top: 30px !important;
   }
   .features .box {
@@ -716,7 +725,7 @@
   .promo {
     margin-top: 85px;
     padding: 20px 20px;
-    background-size: cover;
+    background-size: auto;
   }
   .promo h1 {
     font-size: 14px;
@@ -724,7 +733,7 @@
   }
   .promo p {
     padding-top: 0px;
-    color: white;
+    color: black;
     font-size: 10px;
     line-height: 1.2;
   }
@@ -742,6 +751,9 @@
     font-size: 8px;
     text-align: center;
     box-shadow: 0 10px 20px 0 rgba(251, 54, 64, 0.35);
+  }
+  .features {
+    margin-top: 30px;
   }
   .features .box {
     padding-left: 10px;
@@ -841,7 +853,15 @@
   .workflow .box {
     min-height: auto;
   }
-  .logo{
+  .logo {
     max-width: 150px;
+  }
+  .business {
+    background-image: url("../images/business-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    padding: 140px 40px 200px 40px;
   }
 }

@@ -24,7 +24,7 @@ const Buildingkwicki = () => {
                   <img src={Courier} />
                 </Col>
                 <Col md={6} sm={12}>
-                  <h3>Be Our Volunteer</h3>
+                  <h3>Be a Volunteer</h3>
                   <h6>Arrange your working hours as you wish</h6>
                   <p>
                     Be your own boss. Flexible working hours, a helping hand for

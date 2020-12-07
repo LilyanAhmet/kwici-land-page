@@ -11,17 +11,17 @@ const Promo = () => {
       <div className="promo" id="promo">
         <Row>
           <Col xs={10}>
-            <p style={{ marginBottom: "0px" }}>Get Same-Day Delivery</p>
+            <p style={{ marginBottom: "0px" }}>Same-Day Delivery</p>
             <h1>Everybody can be a Volunteer Hero</h1>
           </Col>
         </Row>
         <Row>
           <Col xs={9} md={5}>
             <p>
-              Receive your delivery the same day, whenever you need it. Put
-              together your shopping cart and receive your packages quickly and
-              easily. With a quick registration on Quicki anyone can be a
-              volunteer hero.
+              Get your delivery the same day, whenever you need it. Put your
+              purchase together and receive your goods quickly and easily. And
+              with a quick registration on Quicki, anyone can be a volunteer
+              hero.
             </p>
           </Col>
         </Row>

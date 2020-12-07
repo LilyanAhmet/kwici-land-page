@@ -24,7 +24,8 @@ const Workflow = () => {
             <div className="box">
               <h5>Registered Volunteers</h5>
               <p>
-              You can be a volunteer on Quicki easily. Volunteers can register to Quicki to start carrying deliveries as registered volunteer.
+                You can easily join Quicki as a volunteer. Volunteers can
+                register on Quicki to directly start making deliveries.
               </p>
             </div>
           </Col>
@@ -32,16 +33,15 @@ const Workflow = () => {
             <div className="box">
               <h5>Order Fast & Easy</h5>
               <p>
-              Order all your requests fast and easy by monitoring all your orders in detail.
+                Order all your requests fast and easy by monitoring all your
+                orders in detail.
               </p>
             </div>
           </Col>
           <Col sm={4}>
             <div className="box">
               <h5>User-friendly Design</h5>
-              <p>
-              The user-friendly design facilitates the ordering process.
-              </p>
+              <p>The user-friendly design facilitates the ordering process.</p>
             </div>
           </Col>
         </Row>

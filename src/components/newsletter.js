@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-
+import Arrow from '../images/path-arrow.svg'
 const Newsletter = () => {
   return (
     <div className="newsletter">
@@ -33,12 +33,14 @@ const Newsletter = () => {
                     required
                   />
                   <div class="input-group-prepend">
-                    <input
+                    <button
                       type="submit"
                       vlaue="submit"
-                      class="btn btn-primary btn-sm newletter-btn"
+                      className="btn btn-indigo px-4 newletter-btn"
                       id="inputGroupPrepend2"
-                    />
+                    >
+                      <img style={{margin:"auto", display:"block",width:"20px"}} src={Arrow}/>
+                      </button>
                   </div>
                 </div>
               </form>

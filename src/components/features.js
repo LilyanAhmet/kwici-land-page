@@ -11,7 +11,7 @@ import Track from "../images/order-tracking.svg"
 import Become from "../images/6.svg"
 const Features = () => {
   return (
-    <div className="features">
+    <div className="features" id="features">
       <Container>
         <Row>
           <Col>
@@ -23,20 +23,19 @@ const Features = () => {
             <Col sm={12} md={4}>
               <div className="feature">
                 <img src={FoodDilvery} />
-                <h5>Get Same-Day Delivery</h5>
+                <h5>Same-Day Delivery</h5>
                 <div className="Rectangle-2"></div>
-                <p>
-                Same-Day Delivery: Order for delivery from local supermarkets.
-                </p>
+                <p>Order for delivery from local supermarkets.</p>
               </div>
             </Col>
             <Col sm={12} md={4}>
               <div className="feature">
                 <img src={PaymentMethod} />
-                <h5>Save Time & Money</h5>
+                <h5>Save Time</h5>
                 <div className="Rectangle-2"></div>
                 <p>
-                Make your purchase from the comfort of your own home and receive the delivery of the articles in only 2 hours.
+                  Make your purchase from the comfort of your own home and
+                  receive the delivery of the articles in only 2 hours.
                 </p>
               </div>
             </Col>
@@ -46,7 +45,8 @@ const Features = () => {
                 <h5>Mobile App and Website</h5>
                 <div className="Rectangle-2"></div>
                 <p>
-                Mobile App and Website: A secure mobile app and desktop app offers a safe and easy way to do your shopping.
+                  A secure mobile app and desktop app offers a safe and easy way
+                  to do your shopping.
                 </p>
               </div>
             </Col>
@@ -59,25 +59,34 @@ const Features = () => {
                 <img src={Date} />
                 <h5>Choosing Delivery Date and Time</h5>
                 <div className="Rectangle-2"></div>
-                <p>Receive your order on the day and within the time range of your choice.</p>
+                <p>
+                  Receive your order on the day and within the time range of
+                  your choice.
+                </p>
               </div>
             </Col>
             <Col sm={12} md={4}>
               <div className="feature">
                 <img src={Track} />
-                <h5>Order Status <br/> Tracking </h5>
+                <h5>
+                  Order Status <br /> Tracking{" "}
+                </h5>
                 <div className="Rectangle-2"></div>
                 <p>
-                Get the items you love delivered or ready for pickup in as little as 2 hours. Track your order status instantly. 
+                  Get the items you love delivered in as little as 2 hours. Get
+                  a confirmation as soon as a courier has accepted your order.
                 </p>
               </div>
             </Col>
             <Col sm={12} md={4}>
               <div className="feature">
                 <img src={Become} />
-                <h5>Every Customer Can Become a Volunteer</h5>
+                <h5>Everybody Can Become a Volunteer</h5>
                 <div className="Rectangle-2"></div>
-                <p>Everyone can volunteer in their spare time to help the community.</p>
+                <p>
+                  Everyone can volunteer in their spare time to help the
+                  community.
+                </p>
               </div>
             </Col>
           </Row>

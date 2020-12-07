@@ -19,7 +19,7 @@ const Product = () => {
 
         <Row style={{ marginTop: "50px" }}>
           <Tab.Container id="left-tabs-example" defaultActiveKey="mobile">
-            <Col md={5} sm={12}>
+            <Col md={5} sm={12} className="order-2">
               <Tab.Content>
                 <Tab.Pane eventKey="mobile">
                   <img
@@ -36,7 +36,7 @@ const Product = () => {
               </Tab.Content>
             </Col>
 
-            <Col md={7} sm={12}>
+            <Col md={7} sm={12} className="order-1 order-md-12">
               <Nav variant="tabs" className="row">
                 <Nav.Item className="col-md-6 col-xs-12">
                   <Nav.Link eventKey="mobile">
@@ -58,7 +58,7 @@ const Product = () => {
                     <div className="details">
                       <div className="element">
                         <div className="text">
-                          <h6>Order Status Tracking for Customers </h6>
+                          <h6>Order Status Tracking </h6>
                           <p>
                             Get the items you love delivered in as little as 2
                             hours. Get a confirmation as soon as a volunteer has

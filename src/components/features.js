@@ -45,7 +45,7 @@ const Features = () => {
                 <h5>Mobile App and Website</h5>
                 <div className="Rectangle-2"></div>
                 <p>
-                  A secure mobile app and desktop app offers a safe and easy way
+                  A secure mobile app and desktop app offer a safe and easy way
                   to do your shopping.
                 </p>
               </div>

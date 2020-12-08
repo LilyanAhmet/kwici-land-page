@@ -29,8 +29,8 @@ const Buildingkwicki = () => {
                   <p>
                     Be your own boss. Flexible working hours, a helping hand for
                     people who need you and the opportunity to get to know your
-                    city even better. Contact us and work with us in less than
-                    24 hours.
+                    city even better. Contact us and start working in less than
+                    24 hours
                   </p>
                   <AnchorLink href="#contact">
                     <Button text="Register Now" />
